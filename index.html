@@ -9,6 +9,8 @@
     <script src="main.js"></script>
 </head>
 <body>
+
+    <!--
     
 
     <div class="container">
@@ -105,12 +107,37 @@
 
     div.innerHTML = '<span>Hello World </div>'
     //renders the html inside div
-    
 
-    
+    </script>
 
+    -->
+
+
+    <h1>Title of the Webpage</h1>
+
+    <div id="container"></div>
+
+
+    <script>
+    
+    const container = document.querySelector('#container');
+
+    const content = document.createElement('div');
+    content.classList.add('content');
+    content.textContent = "This is the glorious text-content!";
+
+    container.appendChild(content);
     
     
     </script>
+
+
+    
+
+    
+
+    
+    
+    
 </body>
 </html>
