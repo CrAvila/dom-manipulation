@@ -121,6 +121,10 @@
 
     <button onclick="alert('Hello World!')">Click Me</button>
 
+    <!--Method 2-->
+
+    <button id="btn">Click Me 2</button>
+
 
     <script>
     
@@ -163,6 +167,11 @@
     container.appendChild(para);
     container.appendChild(h3);
     container.appendChild(div);
+
+
+    var btn = document.querySelector('#btn');
+
+    btn.onclick = () => alert('Hello World');
 
     
     
