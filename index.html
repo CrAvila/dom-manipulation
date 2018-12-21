@@ -203,6 +203,20 @@
     })
 
 
+
+
+    //buttons is a nodelist. it looks and acts much like an array.
+    const buttons = document.querySelectorAll('button');
+
+    //we use the forEach method to iterate through each button
+    buttons.forEach((button) => {
+        //and for each button we add a 'click' listener
+        button.addEventListener('click', (e) => {
+            alert(button.id);
+        });
+    });
+
+
     
     
     
